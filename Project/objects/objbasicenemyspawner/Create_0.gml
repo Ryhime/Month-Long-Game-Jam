@@ -1,0 +1,1 @@
+spawncool = 0
