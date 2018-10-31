@@ -16,7 +16,8 @@
                 "Key": "ed6a955d-5826-4f98-a450-10b414266c27",
                 "Value": {
                     "configDeltas": [
-                        "inherited"
+                        "inherited",
+                        "inherited_65068747-ea1e-4d50-a76a-af0dc0ac3154"
                     ],
                     "id": "a7457bad-816f-47dc-bec9-c5fc9b0e2af6",
                     "resourcePath": "options\\main\\options_main.yy",
@@ -103,11 +104,27 @@
             }
         },
         {
+            "Key": "40e5b0e3-26f6-4ffd-a913-e4b7810848ff",
+            "Value": {
+                "id": "3667edef-7c4a-45a8-ba83-c0c972992f98",
+                "resourcePath": "scripts\\scr_animationS\\scr_animationS.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "4115cc10-2a86-49ef-a7c6-45077eb03e48",
             "Value": {
                 "id": "58e8d3ac-3f1f-477f-8e2a-b51b429c81b6",
                 "resourcePath": "sprites\\sprboss\\sprboss.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "4bcc812d-87e3-4af9-9baa-259aeecf120b",
+            "Value": {
+                "id": "f8545f53-1163-407c-8921-3b39aea20543",
+                "resourcePath": "scripts\\scr_animationC\\scr_animationC.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -215,6 +232,14 @@
             }
         },
         {
+            "Key": "a9188620-a624-4a5a-83ae-a1b53faf038b",
+            "Value": {
+                "id": "27529ec5-7c4c-432b-94cb-593e3b1aaca5",
+                "resourcePath": "options\\linux\\options_linux.yy",
+                "resourceType": "GMLinuxOptions"
+            }
+        },
+        {
             "Key": "b4736398-9379-44fa-a440-5740c6d4388a",
             "Value": {
                 "id": "73fb71ad-d786-4fad-aa02-6c49decb2738",
@@ -223,11 +248,27 @@
             }
         },
         {
+            "Key": "c0fea549-1c19-4ded-a205-327a787c294a",
+            "Value": {
+                "id": "4dfe57ee-a22f-41a8-9514-218e6acf50e4",
+                "resourcePath": "scripts\\scr_animationChoser\\scr_animationChoser.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "cc98d028-7bdd-4680-85f3-c87a7baa481e",
             "Value": {
                 "id": "b2fb06f0-506f-4739-84a8-5542ba9e68c3",
                 "resourcePath": "options\\windows\\options_windows.yy",
                 "resourceType": "GMWindowsOptions"
+            }
+        },
+        {
+            "Key": "cd9df445-b9bd-4348-8efe-193288a497db",
+            "Value": {
+                "id": "0868e6bf-0c84-4010-9089-fada03ca519e",
+                "resourcePath": "scripts\\scr_gravity\\scr_gravity.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -255,6 +296,14 @@
             }
         },
         {
+            "Key": "dde6eddb-bb5f-4da9-a735-78cff496a264",
+            "Value": {
+                "id": "dbc481df-b41f-4b46-9b27-1533e35dfa67",
+                "resourcePath": "scripts\\scr_movement\\scr_movement.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "e3bc5bf3-551f-4598-8204-00bb26979bac",
             "Value": {
                 "id": "d3db451d-b92d-4810-9440-bed961697c57",
@@ -277,10 +326,31 @@
                 "resourcePath": "sprites\\sprplayer\\sprplayer.yy",
                 "resourceType": "GMSprite"
             }
+        },
+        {
+            "Key": "f418569b-3bdd-4706-a0e4-364317f54032",
+            "Value": {
+                "id": "f72aca55-6eb6-473d-ba84-1f5537889f45",
+                "resourcePath": "options\\mac\\options_mac.yy",
+                "resourceType": "GMMacOptions"
+            }
+        },
+        {
+            "Key": "fe44b14d-b828-4ecb-a240-82bf91746e19",
+            "Value": {
+                "id": "2c500ae6-02ce-446c-b9fb-6125e251b10d",
+                "resourcePath": "scripts\\scr_jump\\scr_jump.yy",
+                "resourceType": "GMScript"
+            }
         }
     ],
     "script_order": [
-        
+        "4bcc812d-87e3-4af9-9baa-259aeecf120b",
+        "40e5b0e3-26f6-4ffd-a913-e4b7810848ff",
+        "dde6eddb-bb5f-4da9-a735-78cff496a264",
+        "cd9df445-b9bd-4348-8efe-193288a497db",
+        "fe44b14d-b828-4ecb-a240-82bf91746e19",
+        "c0fea549-1c19-4ded-a205-327a787c294a"
     ],
     "tutorial": ""
 }
