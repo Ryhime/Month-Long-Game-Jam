@@ -10,8 +10,8 @@ hsp = 0;
 //vertical speed
 vsp = 0;
 //gravity
-grv = 0.3;
+grv = 1;
 //speed
 spd = 5;
 //jump height
-jumpH = 7;
+jumpH = 20;
