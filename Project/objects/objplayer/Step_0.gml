@@ -7,3 +7,5 @@ scr_jump(objsolid);
 //animation
 scr_animationChoser();
 scr_animationS();
+//Shooting
+scr_playershoot()

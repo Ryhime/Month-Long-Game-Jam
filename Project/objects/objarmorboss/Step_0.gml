@@ -1,21 +1,43 @@
-if place_meeting(x,y,objarrow)
+//Find Attack
+if attackphase = 1
 {
-	hp -= 1
+	attack = irandom(4)
+	attackphase = 2
 }
-if (hp <= 0) instance_destroy()
-if place_meeting(x-1,y,objsolid)
+if phase = 1 and attackphase = 2
 {
-	hspeed = 5	
-}
-else if place_meeting(x+1,y,objsolid)
+	switch (attack) {
+		case 0:
+		case 1:
+		case 2:
+		case 3:
+			//Dash Attack(More Common)
+			break;
+		case 4:
+			//Shockwave(Less Common)
+			break;
+	}
+}	
+if phase = 2 and attackphase = 2
 {
-	hspeed = -5	
+	switch(attack)
+	{
+		case 0:
+		case 1:
+		case 2:
+		case 3:
+			//Dash Attack(More Common)
+			break;
+		case 4:
+			//Jump Attack(Less Common)
+			break;
+	}
 }
-if place_meeting(x,y+1,objsolid)
+//Wait for Next Attack
+if phase = 3
 {
-	gravity = 0	
+	//Wait	
 }
-else gravity = 1
 //Collision
 if hspeed != 0
 if !place_free(x + hspeed, y)

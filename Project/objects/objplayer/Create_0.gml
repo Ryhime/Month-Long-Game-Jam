@@ -15,3 +15,5 @@ grv = 1;
 spd = 5;
 //jump height
 jumpH = 20;
+//ShootCool
+shootcool = 5
