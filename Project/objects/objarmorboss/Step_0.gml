@@ -1,7 +1,7 @@
 //Find Attack
 if attackphase = 1
 {
-	attack = irandom(4)
+	attack = 1
 	attackphase = 2
 }
 if phase = 1 and attackphase = 2
@@ -11,7 +11,22 @@ if phase = 1 and attackphase = 2
 		case 1:
 		case 2:
 		case 3:
-			//Dash Attack(More Common)
+			//Dashing
+			if (dashing = false)
+			{
+				if (x > objplayer.x)
+				{
+					hspeed = -5
+					dashing = true
+					alarm[0] = 100
+				}
+				else if (x <= objplayer.x)
+				{
+					hspeed = 5
+					dashing = true
+					alarm[0] = 100
+				}
+			}
 			break;
 		case 4:
 			//Shockwave(Less Common)
@@ -34,9 +49,11 @@ if phase = 2 and attackphase = 2
 	}
 }
 //Wait for Next Attack
-if phase = 3
+if attackphase = 3 and phase3 = false
 {
-	//Wait	
+	alarm[1] = 10
+	phase3 = true
+	show_debug_message("h")
 }
 //Collision
 if hspeed != 0
