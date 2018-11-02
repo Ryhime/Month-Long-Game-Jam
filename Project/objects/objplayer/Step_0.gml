@@ -9,3 +9,5 @@ scr_animationChoser();
 scr_animationS();
 //Shooting
 scr_playershoot()
+//Death
+scr_playerdeath()

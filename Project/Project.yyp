@@ -40,6 +40,14 @@
             }
         },
         {
+            "Key": "06ad4e5c-1a57-4147-9792-f2e9e4ba3d60",
+            "Value": {
+                "id": "23e66997-d884-45bb-a5dd-f8893eb53b3c",
+                "resourcePath": "objects\\objshockwaveleft\\objshockwaveleft.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "08048bab-310f-4b17-999c-21022771de69",
             "Value": {
                 "id": "ac57b87d-e09e-47f9-96fe-b2f568e3c371",
@@ -64,6 +72,14 @@
             }
         },
         {
+            "Key": "1628720c-24d4-4e29-8074-b9c0d854b94a",
+            "Value": {
+                "id": "db224989-383c-4e39-a79b-8375fcb845a4",
+                "resourcePath": "scripts\\scr_playerdeath\\scr_playerdeath.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "1892cddb-fd7c-4102-9925-8063e84ca340",
             "Value": {
                 "id": "d8d7c4eb-7448-4875-b80d-1c81e67a0234",
@@ -77,6 +93,14 @@
                 "id": "499600e5-9a38-4ef9-8f7a-a069ff669399",
                 "resourcePath": "objects\\objbasicenemyspawner\\objbasicenemyspawner.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "272cef78-aadf-4570-bbd0-344c28f50ec7",
+            "Value": {
+                "id": "3915ab6e-3deb-419b-ba8c-e60452d1e60a",
+                "resourcePath": "sprites\\sprsword\\sprsword.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -184,6 +208,14 @@
             }
         },
         {
+            "Key": "7dbf1672-7699-47ed-b665-f7e48e742a81",
+            "Value": {
+                "id": "b76754dd-bea1-4138-b103-de6170af1bf1",
+                "resourcePath": "sprites\\sprshockwave\\sprshockwave.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "8c70a7b5-bc7d-46cc-bc37-a641bf2e2ced",
             "Value": {
                 "id": "517f9c7d-c063-4e68-a9ef-fc2f50c0b16c",
@@ -232,11 +264,27 @@
             }
         },
         {
+            "Key": "a1019fe1-fe8f-424f-8350-3f30a87affd1",
+            "Value": {
+                "id": "47991ba8-279a-4a02-8cdf-79d92a33727d",
+                "resourcePath": "objects\\objshockwaveright\\objshockwaveright.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "a9188620-a624-4a5a-83ae-a1b53faf038b",
             "Value": {
                 "id": "27529ec5-7c4c-432b-94cb-593e3b1aaca5",
                 "resourcePath": "options\\linux\\options_linux.yy",
                 "resourceType": "GMLinuxOptions"
+            }
+        },
+        {
+            "Key": "b46fc641-b92d-4dc4-9334-16901f4b6af8",
+            "Value": {
+                "id": "d4e40fe4-a446-4d9a-b43b-92d8ceca36cb",
+                "resourcePath": "objects\\objsword\\objsword.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -359,7 +407,8 @@
         "cd9df445-b9bd-4348-8efe-193288a497db",
         "fe44b14d-b828-4ecb-a240-82bf91746e19",
         "c0fea549-1c19-4ded-a205-327a787c294a",
-        "b8869da2-f8d3-448f-b4e6-5544e2b31235"
+        "b8869da2-f8d3-448f-b4e6-5544e2b31235",
+        "1628720c-24d4-4e29-8074-b9c0d854b94a"
     ],
     "tutorial": ""
 }
