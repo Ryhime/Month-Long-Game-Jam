@@ -3,3 +3,4 @@
 //3 = Move Away From Player and Start Over
 attack = 0
 attackphase = 1
+hp = 30

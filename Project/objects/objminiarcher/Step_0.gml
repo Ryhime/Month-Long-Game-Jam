@@ -1,3 +1,6 @@
+//Health
+if (place_meeting(x,y,objarrow)) hp -= 1
+if (hp<=0) instance_destroy()
 if attackphase = 1
 {
 	attack = irandom(7)
