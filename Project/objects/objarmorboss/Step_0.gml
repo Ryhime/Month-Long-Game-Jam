@@ -19,7 +19,6 @@ if hp <= 0
 if attackphase = 1
 {
 	attack = irandom(4)
-	show_debug_message(attack)
 	attackphase = 2
 }
 if phase = 1 and attackphase = 2
