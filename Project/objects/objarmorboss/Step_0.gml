@@ -105,13 +105,13 @@ if swingcool >= 10 and swinging
 		swingdirection = "Left"
 		if phase = 1 or phase = 2
 		{
-			instance_create_layer(x+50,y,layer,objsword)	
+			instance_create_layer(x+50,y,layer,objswordright)	
 		}
 	}
 	else if swingdirection = "Left"
 	{
 		swingdirection = "Right"
-		instance_create_layer(x-50,y,layer,objsword)
+		instance_create_layer(x-50,y,layer,objswordleft)
 	}
 }
 //Increase SwingCool
