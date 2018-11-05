@@ -7,7 +7,7 @@ if place_meeting(x,y,objswordleft) or place_meeting(x,y,objenarrowbasic) or plac
 {
 	room_restart()	
 }
-if place_meeting(x,y,objex)
+if place_meeting(x,y,objex) or place_meeting(x,y,objminiskeltonleft) or place_meeting(x,y,objminiskeltonright)
 {
 	room_restart()
 }

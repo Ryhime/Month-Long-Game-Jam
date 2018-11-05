@@ -152,6 +152,14 @@
             }
         },
         {
+            "Key": "2eaeddf9-198c-424e-9ef2-0050a553dff9",
+            "Value": {
+                "id": "9c345636-f469-426b-9484-2b8d2c36eaf5",
+                "resourcePath": "objects\\objminiskeltonleft\\objminiskeltonleft.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "300d59f3-dec2-425a-9288-48a2b0502aa1",
             "Value": {
                 "id": "c26d2312-8ce2-4d00-b0b8-1b291c160075",
@@ -200,11 +208,27 @@
             }
         },
         {
+            "Key": "4840d9ce-b6f0-4de2-b64d-2a03743051bf",
+            "Value": {
+                "id": "8724f624-c83f-463d-ba6c-ea9f1d041496",
+                "resourcePath": "views\\4840d9ce-b6f0-4de2-b64d-2a03743051bf.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "4bcc812d-87e3-4af9-9baa-259aeecf120b",
             "Value": {
                 "id": "f8545f53-1163-407c-8921-3b39aea20543",
                 "resourcePath": "scripts\\scr_animationC\\scr_animationC.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "4c4f9c6a-4019-4e12-95d1-92fe82dec223",
+            "Value": {
+                "id": "95fbabdc-0d3a-4b9e-9d5b-b5fc1b6c42d9",
+                "resourcePath": "sprites\\sprskeletonshield\\sprskeletonshield.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -256,6 +280,22 @@
             }
         },
         {
+            "Key": "7b02770f-d46f-46b2-8a4e-7f5cc9931c34",
+            "Value": {
+                "id": "7c2a5495-c058-46e5-85d6-5bbdcca4ed13",
+                "resourcePath": "objects\\objminiskeltonright\\objminiskeltonright.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "7b16512d-4da4-4a16-8602-f3e061dd3678",
+            "Value": {
+                "id": "eb680a9c-ba84-4345-b8c2-8f92e5c5b81a",
+                "resourcePath": "sprites\\sprminiskelton\\sprminiskelton.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "7cadf013-4185-403d-9224-b566d29be851",
             "Value": {
                 "id": "b163cb18-93dd-4fab-b9c6-9ecbffe054be",
@@ -293,6 +333,14 @@
                 "id": "94e0574f-3cb8-4e84-a9f8-98b81106a09c",
                 "resourcePath": "rooms\\rbossthief\\rbossthief.yy",
                 "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "99848803-731c-4014-9537-b725b35212a1",
+            "Value": {
+                "id": "77ffe7e0-4cef-4dbd-b38c-ca64782df45b",
+                "resourcePath": "objects\\objskelton\\objskelton.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -440,6 +488,14 @@
             }
         },
         {
+            "Key": "d27a27b8-2f6c-4e77-9697-3138b75dfda6",
+            "Value": {
+                "id": "510886ff-8d6e-4d7f-af42-b732ce9f2c91",
+                "resourcePath": "views\\d27a27b8-2f6c-4e77-9697-3138b75dfda6.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "dbcb3cd0-6796-4930-8355-6bfb62567d7c",
             "Value": {
                 "id": "f58cee11-dc82-4c32-9921-227d0aacd0ad",
@@ -464,11 +520,27 @@
             }
         },
         {
+            "Key": "dd9ac35a-be9f-4c07-a428-7e594651a996",
+            "Value": {
+                "id": "b2792a3f-826a-4a3a-b6e4-3c03cf1d8965",
+                "resourcePath": "scripts\\scrminiskelton\\scrminiskelton.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "dde6eddb-bb5f-4da9-a735-78cff496a264",
             "Value": {
                 "id": "dbc481df-b41f-4b46-9b27-1533e35dfa67",
                 "resourcePath": "scripts\\scr_movement\\scr_movement.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "deff9158-893c-4ecd-93c0-f6c9206e28d6",
+            "Value": {
+                "id": "a3f9a201-7d50-456c-9d94-6d6756f844f8",
+                "resourcePath": "sprites\\sprskeltonboss\\sprskeltonboss.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -536,7 +608,8 @@
         "fe44b14d-b828-4ecb-a240-82bf91746e19",
         "c0fea549-1c19-4ded-a205-327a787c294a",
         "b8869da2-f8d3-448f-b4e6-5544e2b31235",
-        "1628720c-24d4-4e29-8074-b9c0d854b94a"
+        "1628720c-24d4-4e29-8074-b9c0d854b94a",
+        "dd9ac35a-be9f-4c07-a428-7e594651a996"
     ],
     "tutorial": ""
 }
