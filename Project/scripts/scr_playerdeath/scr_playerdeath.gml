@@ -11,3 +11,7 @@ if place_meeting(x,y,objex) or place_meeting(x,y,objminiskeltonleft) or place_me
 {
 	room_restart()
 }
+if place_meeting(x,y,objdragon) or place_meeting(x,y,objlightningball) or place_meeting(x,y,objfireball)
+{
+	room_restart()	
+}
